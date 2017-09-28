@@ -1,0 +1,386 @@
+.homepage {
+    background-color: #0A5794;
+    background-image: url("http://www.geofortomorrow.org/bcpcafeteria/assets/BCPLogo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: 250px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 30px;
+    font-family: "Avenir", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+}
+h2 {
+	font-weight: bold;
+	font-size: 20px;
+    font-family: "Avenir", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+}
+p {
+	font-size: 15px;
+    font-family: "Avenir", sans-serif;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.box {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    background-color: #45a5f2;
+    padding: 2%;
+    border-radius: 8px;
+    text-align: center;
+    width: 70%;
+    opacity: 0.95;
+}
+
+.login {
+    display: flex;
+	display: -webkit-box;   
+	display: -moz-box; 
+	display: -ms-flexbox;  
+	display: -webkit-flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4.2%;
+    align-items: center;
+    justify-content: center;
+}
+
+form.loginForm {
+    margin-right: 7%;
+}
+
+input.loginField {
+    width: 90%;
+    border-radius: 8px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    background-color: #0A5794;
+    border-color: #0A5794;
+    border-style: solid;
+    font-family: "Avenir", sans-serif;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-left: 5%;
+    -webkit-appearance : none;
+}
+
+input.loginField:focus {
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-color: #0A5794;
+    -webkit-appearance : none;
+}
+::-webkit-input-placeholder {
+    color: white;
+}
+input.loginField:focus::-webkit-input-placeholder { color:transparent; }
+
+input.second {
+    margin-top: 3%;
+}
+
+.submitForm {
+    position: relative;
+    left: -3%;
+}
+
+.button1 {
+    border-radius: 4px;
+    background-color: #0A5794;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    font-family: "Avenir", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-color: #0A5794;
+    border-style: solid;
+    height: 3.125em;
+    letter-spacing: 0.125em;
+    line-height: 3.125em;
+    padding: 0 1.75em;
+    text-decoration: none;
+}
+
+.colorImp {
+    background-color: #45a5f2 !important;
+}
+
+.small {
+    font-size: 10px;
+    padding-bottom: 2%;
+}
+
+@media screen and (max-width: 980px) {
+    .box {
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .box {
+        transform: translate(-50%, -50%);
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .login {
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    form.loginForm {
+        margin-right: 0;
+    }
+    .submitForm {
+        left: 0;
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .submitForm {
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+}
+
+#centerText {
+    text-align: center !important;
+}
+
+.popUp {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: #0A5794;
+    /*border-radius: 8px;*/
+    height: 100vh;
+    width:  100%;
+    opacity: 0.98;
+    color: white;
+    font-family: "Avenir", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    z-index: 100000;
+    padding: 5%;
+    padding-top: 3%;
+    text-align: left;
+    display: none;
+    margin: 0;
+    overflow-x: hidden;
+    /*overflow-y: hidden;*/
+}
+
+/*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*CSS Inserted from Other File*/
+
+#menu {
+    background-color: #0A5794 !important;
+}
+.menuToggle, nav {
+    background-color: #0A5794 !important;
+}
+.buttonBlue, .buttonGreen, .buttonRed {
+    background-color: #45a5f2 !important;
+}
+
+/*body.is-mobile.landing #classTech3, body.is-mobile.landing .wrapper.style4 {
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://www.geofortomorrow.org/bcpcafeteria/assets/banner.jpg") !important;
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://www.geofortomorrow.org/bcpcafeteria/assets/banner.jpg") !important;
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://www.geofortomorrow.org/bcpcafeteria/assets/banner.jpg") !important;
+    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://www.geofortomorrow.org/bcpcafeteria/assets/banner.jpg") !important;
+}*/
+    
+p.small2 {
+    font-size: 10px !important;
+    text-align: center;
+    margin-top: 80%;
+    margin-bottom: 0;
+}
+    
+section.full {
+    margin: 0 !important;
+}
+
+/*************************************************************************************************************************************************************************************************/
+
+body {
+    height: 100vh;
+    width:  100vw;
+    margin: 0;
+    padding: 0;
+}
+
+#classTech2 {
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://www.geofortomorrow.org/bcpcafeteria/assets/banner.jpg") !important;
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://www.geofortomorrow.org/bcpcafeteria/assets/banner.jpg") !important;
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://www.geofortomorrow.org/bcpcafeteria/assets/banner.jpg") !important;
+    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://www.geofortomorrow.org/bcpcafeteria/assets/banner.jpg") !important;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#classTech3 {
+    width: 100%;
+    height: 100%;
+}
+
+.boxTitle {
+    background-color: #0A5794 !important;
+    opacity: 0.9 !important;
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+    /*padding-top: 2.5% !important;
+    padding-bottom: 2.5% !important;*/
+    margin: 0 !important;
+    text-align: center;
+}
+
+.inner {
+    margin: 0 !important;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close {
+    width: 10%;
+    height: 10%;
+    background-image: url("https://www.geofortomorrow.org/assets/css/images/close.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 6%; /*7*/
+    right: -1%;
+    cursor: pointer;
+}
+    @media screen and (max-width: 1500px) {
+        .popUp {
+            padding-top: 4%;
+        }
+        .close {
+            top: 7%;
+        }
+    }
+    @media screen and (max-width: 1250px) {
+        .popUp {
+            padding-top: 5%;
+        }
+        .close {
+            top: 8%;
+        }
+    }
+    @media screen and (max-width: 1150px) {
+        .close {
+            top: 7%;
+        }
+    }
+    @media screen and (max-width: 950px) {
+        .close {
+            top: 6%;
+        }
+    }
+    @media screen and (max-width: 800px) {
+        .close {
+            top: 5%;
+        }
+    }
+    @media screen and (max-width: 700px) {
+        .close {
+            top: 4.5%;
+        }
+    }
+    @media screen and (max-width: 650px) {
+        .close {
+            top: 4%;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .close {
+            top: 3%;
+            right: -1%;
+        }
+    }
+    @media screen and (max-width: 350px) {
+        .close {
+            top: 2.5%;
+            right: 0%;
+        }
+    }
+#left {
+    text-align: left !important;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+#lessSpace {
+    margin-bottom: 1%;
+}
+label.labelItem {
+    font-size: 16px;
+}
+table.orderMenu {
+    width: 50%;
+    text-align: left !important;
+    border-collapse:collapse !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+tr, th {
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+}
+div.buttonAdd {
+    border: none !important;
+    /*height: 26px; !important;*/
+    padding-top: .6px !important;
+    padding-bottom: .6px !important;
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+    background-color: green;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    top: -3px;
+}
+    @media screen and (max-width: 1050px) {    
+        div.buttonAdd {
+            padding-left: 2px !important;
+            padding-right: 2px !important;
+        }
+    }
+    @media screen and (max-width: 800px) {
+        table.orderMenu {
+            width: 100%;
+            padding-right: 5%;
+        }
+    }
+.crapClass {
+    text-align: center;
+}
